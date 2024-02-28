@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+.page-1 {
+    background-image: url(/Images/BG.jpg);
+    height: 88vh;
+    width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar {
+    height: 80px;
+    width: 100vw;
+    background: white;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 44px;
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+.logo img {
+    width: 200px;
+    margin-bottom: -15px;
+}
+
+.nav-bar ul {
+    display: flex;
+}
+
+.nav-bar li {
+    margin: 0 23px;
+    list-style: none;
+    transition: 0.4s ease-in-out;
+}
+
+.page-1-left-side {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-1-left-side img {
+    width: 100%;
+    filter: drop-shadow(6px 6px 6px);
+    border-radius: 50%;
+}
+
+.page-1-right-side {
+    height: 60%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.page-1-right-side h1 {
+    font-size: 5vw;
+    margin: 12px;
+    animation: showHeading 2s ease-in-out;
+}
+
+.page-1-right-side p {
+    font-size: 2vw;
+}
