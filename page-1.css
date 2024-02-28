@@ -18,7 +18,7 @@ body {
 }
 
 .page-1 {
-    background-image: url(/Images/BG.jpg);
+    background-image: url(BG.jpg);
     height: 88vh;
     width: 100vw;
     overflow-x: hidden;
